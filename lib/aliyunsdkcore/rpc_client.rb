@@ -1,7 +1,6 @@
 require 'set'
 require 'openssl'
 require 'faraday'
-require 'active_support/all'
 
 module AliyunSDKCore
 
