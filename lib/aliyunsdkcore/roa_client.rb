@@ -85,6 +85,7 @@ module AliyunSDKCore
     def default_headers
       default_headers = {
         'accept' =>                  'application/json',
+        'content-type' =>            'application/json',
         'date' =>                    Time.now.httpdate,
         'host' =>                    URI(self.endpoint).host,
         'x-acs-signature-nonce' =>   SecureRandom.hex(16),
